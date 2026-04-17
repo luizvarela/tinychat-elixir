@@ -3,7 +3,8 @@
 
 // To use Phoenix channels, the first step is to import Socket
 // and connect at the socket path in "lib/my_app/endpoint.ex":
-import {Socket} from "phoenix"
+
+import { Socket } from "phoenix"
 
 let messageContainer = document.getElementById("messages")
 const dataset = messageContainer.dataset
